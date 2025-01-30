@@ -11,6 +11,7 @@ let skullBones = "I don't have a skull...or bones."
 
 console.log(Math.PI);
 
-let random = Math.randomNumber() * 3;
-console.log(randomNumber);
+let random = Math.random() * 3;
+random = Math.floor(random)
+console.log(random);
 
